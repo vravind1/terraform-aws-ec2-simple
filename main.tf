@@ -30,8 +30,3 @@ resource "aws_instance" "example" {
     ]
   }
 }
-
-# Define the output for accessing the instance
-output "public_ip" {
-  value = aws_instance.example.public_ip
-}
